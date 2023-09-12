@@ -1,10 +1,15 @@
-# Skapa ett dictionary med anteckningar
 anteckningar = {
-    1: "Meddelande från skolan",
-    2: "Kom ihåg!",
-    3: "Inför tentamen"
+    "Meddelande från skolan",
+    "Kom ihåg!",
+    "Inför tentamen"
 }
 
-# Skriv ut titlarna för anteckningarna
-for titel in anteckningar.values():
-    print(titel)
+print(".: ANTECKNINGAR :.")
+print("******************")
+
+for anteckning in anteckningar:
+    print(f"- {anteckning}")
+
+print("------------------")
+
+
